@@ -8,5 +8,8 @@ But there are some [jQuery plugins](stackoverflow) for this.
 
 It seems like it uses the [sites framework](sites).
 
+I haven't gotten django-lean to work yet, but I suspect that
+something like a jQuery plugin will be easier.
+
 [sites]: https://docs.djangoproject.com/en/dev/ref/contrib/sites/#ref-contrib-sites
 [stackoverflow]: http://stackoverflow.com/questions/5795779/which-split-testing-tools-can-be-used-for-ajax-heavy-sites
