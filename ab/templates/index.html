@@ -1,0 +1,18 @@
+{% load experiments %}
+
+{% experiment pirates_v_zombies pirates  %}
+<img src="http://en.wikipedia.org/wiki/File:Francoislollonais.JPG" alt="A pirate">
+{% endexperiment %}
+
+{% experiment pirates_v_zombies zombies  %}
+<img src="http://upload.wikimedia.org/wikipedia/commons/0/06/Kirsty.jpg" alt="A zombie">
+{% endexperiment %}
+
+<script>
+<![CDATA[
+{% include "experiments/include/experiments.js" %}
+]]>
+</script>
+
+{% include "experiments/include/experiment_enrollment.html" %}
+{% clientsideexperiment pirates_v_zombies %}
