@@ -1,6 +1,5 @@
-from experiments.models import Experiment
-from experiments.utils import WebUser
-from experiments.models import GoalRecord
+from django_lean.experiments.models import Experiment, GoalRecord
+from django_lean.experiments.utils import WebUser
 from json import dumps
 
 def gr(request, goalname):

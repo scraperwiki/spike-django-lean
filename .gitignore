@@ -1,3 +1,4 @@
+*.sqlite
 *.sw[op]
 *.log
 *.pot
